@@ -13,3 +13,45 @@
  *= require_tree .
  *= require_self
  */
+
+p {
+  font-family: 'Times New Roman', Times, serif;
+}
+.usq{
+  position: relative;
+  padding-left: 20px;
+}
+
+.usq::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background-color: #ccc;
+}
+
+.coan{
+  position: relative;
+  background-color: #FDFCDC;
+  padding-left: 20px;
+}
+
+.answer {
+  padding-top: 5px;
+}
+
+.coach{
+  padding-bottom: 5px;
+}
+
+.coan::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background-color: #ccc;
+}
